@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish | Aspiring Software Engineer Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7; /* Light background for the overall page */
+        }
+        .header-bg {
+            background-color: #0d47a1; /* Deep Blue header */
+        }
+        .section-title {
+            color: #0d47a1; /* Deep Blue section titles */
+            font-weight: 700;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #0d47a1;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        .info-card {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section (Mimicking the blue bar at the top of the image) -->
+    <header class="header-bg text-white py-6 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            
+            <!-- Left Header: Photo and Name -->
+            <div class="flex items-center space-x-4 mb-4 md:mb-0">
+                <!-- Placeholder Image (Replace with your actual photo URL) -->
+                <img src="https://placehold.co/80x80/ffffff/0d47a1?text=K" alt="Krish Photo" class="rounded-full w-20 h-20 object-cover border-4 border-white">
+                <div>
+                    <h1 class="text-3xl font-extrabold tracking-wider uppercase">KRISH ROY</h1>
+                    <p class="text-lg font-light opacity-80">ASPIRING SOFTWARE ENGINEER</p>
+                </div>
+            </div>
+
+            <!-- Right Header: Contact Info -->
+            <div class="text-right text-sm space-y-1">
+                <p class="flex items-center justify-end">
+                    <span class="mr-2">&#9990;</span> +91 ***** 05357
+                </p>
+                <p class="flex items-center justify-end">
+                    <span class="mr-2">&#9993;</span> krish.dev@email.com
+                </p>
+                <p class="flex items-center justify-end">
+                    <span class="mr-2">&#128279;</span> linkedin.com/in/krish-roy-a7802a374
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Grid -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+            <!-- Left Column (lg:col-span-1) -->
+            <div class="space-y-8 lg:col-span-1">
+
+                <!-- Summary Section -->
+                <section class="info-card">
+                    <h2 class="section-title text-xl">SUMMARY</h2>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        Proactive and detail-oriented B.Tech student with a strong passion for technology and its practical application.<br><br>
+                        Strong connection to fields related to Cloud Computing and DevOps.<br><br>
+                        Eager to contribute practical skills, embrace innovative solutions, and achieve excellence.<br>
+                    </p>
+                </section>
+
+                <!-- Technical Skills Section -->
+                <section class="info-card">
+                    <h2 class="section-title text-xl">TECHNICAL SKILLS</h2>
+                    <div class="space-y-4">
+                        <p><strong>Programming Languages:</strong> C, C++, JavaScript, Python (NumPy and Pandas), Scratch Visual Programming Language</p>
+                        <p><strong>Web Technologies:</strong> HTML5, CSS3</p>
+                        <p><strong>Database Management:</strong> PostgreSQL, MongoDB(NoSQL)</p>
+                        <p><strong>Platforms:</strong> Windows, Linux, Git</p>
+                    </div>
+                </section>
+
+                <!-- Certifications Section -->
+                <section class="info-card">
+                    <h2 class="section-title text-xl">CERTIFICATIONS</h2>
+                    <ul class="list-disc pl-5 text-gray-600 text-sm space-y-2">
+                        <li>AWS Cloud Practitioner</li>
+                        <li>AWS DevOps Engineer</li>
+                        <li>Azure Solutions Architect Expert (AZ305)</li>
+                        <li>Docker Certified Associate</li>
+                    </ul>
+                </section>
+                
+                <!-- Powerskills Section -->
+                <section class="info-card">
+                    <h2 class="section-title text-xl">POWERSKILLS</h2>
+                    <ul class="list-disc pl-5 text-gray-600 text-sm space-y-2">
+                        <li>Friendly and approachable</li>
+                        <li>Values imagination and innovation</li>
+                        <li>Makes decisions by heart and head</li>
+                        <li>Proactive to learn and practice new skills</li>
+                    </ul>
+                </section>
+
+            </div>
+
+            <!-- Right Column (lg:col-span-2) -->
+            <div class="space-y-8 lg:col-span-2">
+
+
+            <a><img src="Profile-pic.jpg" height="200" width="150" alt="Profile picture"></a>       <!--Takes to a different webpage or file when clicked-->
+
+
+                <!-- Projects Section -->
+                <section class="info-card">
+                    <h2 class="section-title text-xl">PROJECTS</h2>
+                    
+                    <div class="space-y-6">
+                        <!-- Project 1 -->
+                        <div class="border-l-4 border-[#0d47a1] pl-4">
+                            <div class="flex justify-between items-start">
+                                <h3 class="font-bold text-gray-800 text-lg">Movie Recommendation System</h3>
+                            </div>
+                            <p class="text-sm text-gray-600 mb-2">Languages: Python</p>
+                            <ul class="list-disc pl-5 text-gray-600 text-sm space-y-1">
+                                <li>Created a program that recommends movies based on user preferences.</li>
+                                <li>Implemented collaborative filtering and content-based filtering techniques.</li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Project 2 -->
+                        <div class="border-l-4 border-[#0d47a1] pl-4">
+                            <div class="flex justify-between items-start">
+                                <h3 class="font-bold text-gray-800 text-lg">Text Based Game</h3>
+                            </div>
+                            <p class="text-sm text-gray-600 mb-2">Languages: Python</p>
+                            <ul class="list-disc pl-5 text-gray-600 text-sm space-y-1">
+                                <li>Created a survival horror choice-based text game.</li>
+                                <li>Implemented multiple story paths and endings based on user choices.</li>
+                                <li>Brought it to life with Renpy Visual Novel Engine.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="border-l-4 border-[#0d47a1] pl-4">
+                            <div class="flex justify-between items-start">
+                                <h3 class="font-bold text-gray-800 text-lg">Hotel Management System</h3>
+                            </div>
+                            <ul class="list-disc pl-5 text-gray-600 text-sm space-y-1">
+                                <li>Created a hostel management system with a user-friendly interface.</li>
+                                <li>Implemented features for room booking, guest management, and billing.</li>
+                                <li>Developed a responsive web interface using HTML, CSS, and JavaScript and implemented database integration.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Achievements Section -->
+                <section class="info-card">
+                    <h2 class="section-title text-xl">ACHIEVEMENTS</h2>
+                    <div class="space-y-6">
+                        <div class="border-l-4 border-[#0d47a1] pl-4">
+                            <div class="flex justify-between items-start">
+                                <h3 class="font-bold text-gray-800 text-lg">Coding Competitions 2025-2029</h3>
+                            </div>
+                        </div>
+                        <div class="border-l-4 border-[#0d47a1] pl-4">
+                            <div class="flex justify-between items-start">
+                                <h3 class="font-bold text-gray-800 text-lg">Successful startups</h3>
+                            </div>
+                        </div>
+                        <div class="border-l-4 border-[#0d47a1] pl-4">
+                            <div class="flex justify-between items-start">
+                                <h3 class="font-bold text-gray-800 text-lg">Top ranking in National Level Hackathon. Winnings in multiple Capture the Flags</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education Section -->
+                <section class="info-card">
+                    <h2 class="section-title text-xl">EDUCATION</h2>
+                    
+                    <div class="space-y-6">
+                        <!-- Education 1 -->
+                        <div class="border-l-4 border-[#0d47a1] pl-4">
+                            <div class="flex justify-between items-start">
+                                <h3 class="font-bold text-gray-800 text-lg">B.Tech in Computer Science</h3>
+                                <span class="text-sm text-gray-500 font-semibold"> 2025 - 2029</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Lovely Professional University | Phagwara, Punjab</p>
+                        </div>
+                        
+                        <!-- Education 2 -->
+                        <div class="border-l-4 border-[#0d47a1] pl-4">
+                            <div class="flex justify-between items-start">
+                                <h3 class="font-bold text-gray-800 text-lg">Higher Secondary</h3>
+                                <span class="text-sm text-gray-500 font-semibold"> 2023 - 2025</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Delhi Model Public School | Patna, Bihar</p>
+                        </div>
+
+                        <!-- Education 3 -->
+                        <div class="border-l-4 border-[#0d47a1] pl-4">
+                            <div class="flex justify-between items-start">
+                                <h3 class="font-bold text-gray-800 text-lg">Secondary</h3>
+                                <span class="text-sm text-gray-500 font-semibold"> 2018 - 2023</span>
+                            </div>
+                            <p class="text-sm text-gray-600">St. Karens Secondary School | Patna, Bihar</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-200 text-gray-600 py-4 mt-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>&copy; <span id="currentYear"></span> Krish. All Rights Reserved. | Built with HTML & Tailwind CSS.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set the current year in the footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
